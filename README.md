@@ -17,7 +17,7 @@ A beginner-friendly Low-Code/No-Code automation script built using **Power Autom
 
 The automation follows a simple 3-step sequence:
 
-1. **Get Files in Folder**: Scans the source directory (`%Downloads%`) using a file filter limit of `*.xlsx` to target only Excel spreadsheets.
+1. **Get Files in Folder**: Scans the source directory (`%Downloads%`) using a file filter limit of `*.csv` to target only Excel spreadsheets.
 2. **Create Folder**: Dynamically generates a brand new folder named `Organized Excel Files` on the desktop if it does not already exist.
 3. **Move Files**: Transfers the gathered array list of Excel files from the source path directly into the newly created target directory, overwriting any duplicates to avoid system halts.
 
