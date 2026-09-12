@@ -9,7 +9,7 @@ A beginner-friendly Low-Code/No-Code automation script built using **Power Autom
 * **Goal**: Eliminate manual file filing and desktop clutter.
 * **Tool Used**: Power Automate for Desktop
 * **Target Environment**: Windows Local OS
-* **Core Logic**: Input (Scan Folder) ➡️ Process (Filter by `.xlsx`) ➡️ Action (Create Directory & Move Files)
+* **Core Logic**: Input (Scan Folder) ➡️ Process (Filter by `.csv`) ➡️ Action (Create Directory & Move Files)
 
 ---
 
