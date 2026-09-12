@@ -1,0 +1,3 @@
+Folder.GetFiles Folder: $'''C:\\Mac\\User-name\\Folder-name''' FileFilter: $'''*.csv''' IncludeSubfolders: False FailOnAccessDenied: True SortBy1: Folder.SortBy.NoSort SortDescending1: False SortBy2: Folder.SortBy.NoSort SortDescending2: False SortBy3: Folder.SortBy.NoSort SortDescending3: False Files=> Files
+Folder.Create FolderPath: $'''C:\\Mac\\Home\\Documents\\Folder-name''' FolderName: $'''New-folder-name''' Folder=> NewFolder
+File.Move Files: Files Destination: NewFolder IfFileExists: File.IfExists.DoNothing MovedFiles=> MovedFiles
